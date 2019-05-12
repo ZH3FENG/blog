@@ -1,0 +1,48 @@
+{
+    "title": "朝花夕拾",
+    "description": "脑子迟早痴呆，硬盘没空间，在这里记录一下",
+    "author": "ZH3FENG",
+    "language": "zh-hans",
+    "root": ".",
+    "plugins": [
+        "-highlight",
+        "simple-page-toc",
+        "github-buttons",
+        "anchors",
+        "tbfed-pagefooter",
+        "expandable-chapters-small",
+        "sectionx",
+        "donate",
+        "todo"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "sectionx": {
+            "tag": "b"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "ZH3FENG",
+                "repo": "note",
+                "type": "star",
+                "size": "small",
+                "count": true
+            }]
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "ga": {
+            "token": "UA-133444439-1"
+        },
+        "page-footer-ex": {
+            "copyright": "By [ZH3FENG](https://github.com/ZH3FENG)，使用[知识共享 署名-相同方式共享 4.0协议] 发布",
+            "markdown": true,
+            "update_label": "此页面修订于：",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
+        },
+    }
+}
