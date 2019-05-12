@@ -6,7 +6,7 @@ cache: npm
 notifications:
   email:
     recipients:
-      - mlanriver@gmail.com
+      - ${NOTIFICATION_EMAIL}
     on_success: change
     on_failure: always
 
